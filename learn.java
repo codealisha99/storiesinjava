@@ -1,6 +1,3 @@
-
-
-
  public class learn {
 
     public static void main(String[] args) {
@@ -31,7 +28,7 @@
         int marks = scn.nextInt();
 
         if(marks>90){
-            System.out.println("EXCELLENt!!!");
+               System.out.println("EXCELLENt!!!");
         }
         else 
             if(marks>80 && marks<=90){
@@ -50,6 +47,44 @@
         
         else {
             System.out.println("POOR");
+        }
+    }
+}
+
+class MyThread extends Thread {
+    public void run() {
+        System.out.println("Thread running");
+    }
+}
+
+public class ThreadDemo {
+    public static void main(String[] args) {
+        MyThread t = new MyThread();
+        t.start();
+    }
+}
+
+
+
+
+public class CollectionDemo {
+    public static void main(String[] args) {
+        ArrayList<String> list = new ArrayList<>();
+        list.add("Java");
+        list.add("Python");
+
+        System.out.println(list);
+    }
+}
+
+public class ExceptionDemo {
+    public static void main(String[] args) {
+        try {
+            int a = 10 / 0;
+        } catch (Exception e) {
+            System.out.println("Error occurred");
+        } finally {
+            System.out.println("Always runs");
         }
     }
 }
