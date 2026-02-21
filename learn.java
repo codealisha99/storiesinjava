@@ -1,6 +1,16 @@
  class learn{
-        static int age = 45;
+        
     public static void main(String[] args) {
-        System.out.println("I am " + age + " years old");
+   
+
+      int a = 10;
+
+      a += 2;
+         System.out.println(a);
+         System.out.println("Hello World");
+
+
+       
+       
     }
 }
