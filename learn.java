@@ -1,36 +1,18 @@
- class computer{
 
-   public void  getmeice(){
-      System.out.println("I will buy an icecream");
-   }
-
-   public  String getmepen(int cost){
-      if(cost > 10){
-         return "I will buy pen";
-      }
-      else{
-         return "I will not buy pen";
-      }
-   }
-   
- }
- 
- 
- 
- 
- 
  public class learn{
         
     public static void main(String[] args) {
    
          
-           computer obj = new computer();
-           obj.getmeice();
+          int nums[][] = new int [3][4];
 
-
-           
-             String pen = obj.getmepen(20);
-             System.out.println(pen);
+          for(int i = 0;i<3;i++)
+            {
+              for(int j=0;j<4;j++){
+                System.out.print(nums[i][j]  + " ");
+              }
+             System.out.println();
+          }
 
 
 
