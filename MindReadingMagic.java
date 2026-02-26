@@ -1,23 +1,28 @@
 import java.util.Scanner;
 
-public class MagicTrick {
+public class MindReadingMagic {
 
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Welcome to the Magic Trick!");
-        System.out.print("Think of a number and enter it: ");
+        System.out.println("🎩 Welcome to my Mind Reading Magic!");
+        System.out.println("I will guess your final number 😏");
 
-        int original = sc.nextInt();
+        System.out.print("Enter any number: ");
+        int number = sc.nextInt();
 
-        int step1 = original * 2;
-        int step2 = step1 + 10;
-        int step3 = step2 / 2;
-        int result = step3 - original;
+        System.out.println("Now follow these steps:");
+        System.out.println("1. Multiply your number by 3");
+        System.out.println("2. Add 6");
+        System.out.println("3. Divide the result by 3");
+        System.out.println("4. Subtract your original number");
 
-        System.out.println("Your final number is: " + result);
-        System.out.println("See! I predicted it 😎");
+        System.out.println("Press ENTER when done...");
+        sc.nextLine();  
+        sc.nextLine();
+
+        System.out.println("✨ Your final number is 2! Am I right? 😎");
 
         sc.close();
     }
