@@ -6,6 +6,20 @@ public class kodnest {
 
              for(int j=0;j<5;j++){
                 System.out.println("")
+                var  hdfhd=qqqqq;
+                var  hdfhd=qqqqq;
+                var  hdfhd=qqqqq;
+                var  hdfhd=qqqqq;
+                var  hdfhd=qqqqq;
+                var  hdfhd=qqqqq;
+                var  hdfhd=qqqqq;
+                var  hdfhd=qqqqq;
+                var  hdfhd=qqqqq;
+                var  hdfhd=qqqqq;
+                var  hdfhd=qqqqq;
+                var  hdfhd=qqqqq;
+                var  hdfhd=qqqqq;
+                
              }
 
 
