@@ -1,28 +1,12 @@
 public class kodnest {
     public static void main(String[] args){
-       int menu[][] = new int[3][5];
-
-       for(int i=0;i<3;i++){
-
-             for(int j=0;j<5;j++){
-                System.out.println("")
-                var  hdfhd=qqqqq;
-                var  hdfhd=qqqqq;
-                var  hdfhd=qqqqq;
-                var  hdfhd=qqqqq;
-                var  hdfhd=qqqqq;
-                var  hdfhd=qqqqq;
-                var  hdfhd=qqqqq;
-                var  hdfhd=qqqqq;
-                var  hdfhd=qqqqq;
-                var  hdfhd=qqqqq;
-                var  hdfhd=qqqqq;
-                var  hdfhd=qqqqq;
-                var  hdfhd=qqqqq;
-                
+           byte a = 12; //n=8 bits the formula is -2^n-1 to +2^n-1 -1 is the formula for the range size is 1 byte=8 bits
+           short b = 124;//n=16 bits
+           int c = 45000;// n = 32 bits
+           long d = 445643;// it has 8 bytes 
              }
 
 
-       }
+       
     }
-}
+
