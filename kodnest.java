@@ -10,19 +10,47 @@
        
     //}
 
-public class kodnest{
-  public static void greet(){
-    System.out.println("hello my love!");
+//public class kodnest{
+  //public static void greet(){
+    //System.out.println("hello my love!");
+  //}
+  //public static void greetone(){
+    //System.out.println("hello my love!");
+  //}
+  //public static void greettwo(){
+    //System.out.println("hello my love!");
+  //}
+  //public static void main(String[] args){
+    //greet();
+    //greetone();
+    //greettwo();
+  //}
+//}
+
+
+
+class office {
+  int id;
+  String name;
+
+  void work(){
+    System.out.println("you are fired");
   }
-  public static void greetone(){
-    System.out.println("hello my love!");
-  }
-  public static void greettwo(){
-    System.out.println("hello my love!");
-  }
+}
+
+public class Kodnest {
+
   public static void main(String[] args){
-    greet();
-    greetone();
-    greettwo();
+
+    office e1 = new office();
+
+    e1.id = 12;
+    e1.name = "sahana";
+
+    System.out.println(e1.id);
+    System.out.println(e1.name);
+
+    e1.work();
   }
+
 }
