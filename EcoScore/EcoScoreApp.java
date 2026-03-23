@@ -1,3 +1,4 @@
+package EcoScore;
 import java.util.*;
 class User{
     int id;
