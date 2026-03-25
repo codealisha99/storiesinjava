@@ -10,47 +10,11 @@ public class snakegame {
 
 
         ArrayList<int[]> snake = new ArrayList<>();
-        snake.add(new int[]{5, 5}); // starting position
+        snake.add(new int[]{5, 5}); //it is the starting point of the snake 
 
-               int foodX = 3;
-               int foodY = 3;
+               int foodX = 3;//it is the x coordinate of the food
+               int foodY = 3;//it is the y coordinate of the food
 
-         char direction = 'R';
-
-
-
-         for (int i = 0; i < height; i++) {
-            for (int j = 0; j < width; j++) {
-        
-                boolean isSnake = false;
-        
-                for (int[] s : snake) {
-                    if (s[0] == i && s[1] == j) {
-                        System.out.print("O ");
-                        isSnake = true;
-                        break;
-                    }
-                }
-        
-                if (!isSnake) {
-                    if (i == foodX && j == foodY) {
-                        System.out.print("* ");
-                    } else {
-                        System.out.print(". ");
-                    }
-                }
-            }
-            System.out.println();
-        }
-
-
-        while(true){
-            Scanner sc = new Scanner(System.in);
-
-           System.out.print("Move (W/A/S/D): ");
-          char input = sc.next().charAt(0);
-
-            direction = input;
-        }
+         
     }
 }

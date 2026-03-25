@@ -86,7 +86,7 @@ public class EcoScoreApp{
                                 
                             } 
                     } 
-                    }
+             }
            System.out.println("Leaderboard-Eco Scores:");
 
 for (User u : users) {

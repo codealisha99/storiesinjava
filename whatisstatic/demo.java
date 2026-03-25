@@ -7,7 +7,11 @@ class Mobile{ //1)I have declared a class now i have to make an object if i have
 
     public void show(){
         System.out.println(Brand + " : " + Model + name);
-    }
+    }//instance method
+
+    public static void show1(Mobile m){
+        System.out.println(name);
+    }//static method
 }
 
 public class demo {
