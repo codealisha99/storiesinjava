@@ -1,3 +1,6 @@
+import java.io.BufferedReader;
+
+@FunctionalInterface
 interface A{
     void show();
     void fly();
@@ -20,14 +23,18 @@ class c implements B{
     }
 }
 
-
+enum status{
+    STARTED,
+    IN_PROGRESS,
+    COMPLETED
+}
 
 
 
 
 public class demoo {
     public static void main(String[] args){
-        c obj = new B(){
+        c obj = new B() {
             public void show(){
                 System.out.println("show in the main");
             }
@@ -38,5 +45,7 @@ public class demoo {
                 System.out.println("run in the main");
             }
         }
+
+        BufferedReader bf = new BufferedReader(null)
     }
 }
