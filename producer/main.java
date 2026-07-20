@@ -21,6 +21,16 @@ class Producer implements Runnable{
 
 class Factory implements Runnable{
 
+        int x;
+        public void setData(int x) {
+            this.x = x;
+            System.out.println("Produced: " + x);
+        }
+
+        public void getData() {
+            System.out.println("Consumed: " + x);
+        }
+
 }
 
 class Consumer implements Runnable{
@@ -33,7 +43,7 @@ class Consumer implements Runnable{
     @Override
     public void run() {
         try(){
-             
+             getData();
         }catch(Exception e) {
             e.printStackTrace();
         }
