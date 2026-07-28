@@ -9,7 +9,7 @@ public class deserial {
         ObjectInputStream ois = new ObjectInputStream(fis);
 
 
-        Student student = (Student)ois.readObject();
+        Student student = (Student)(ois.readObject());
 
 
        System.err.println(student);
